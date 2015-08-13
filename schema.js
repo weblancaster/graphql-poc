@@ -8,8 +8,7 @@ import {
 } from 'graphql';
 
 import { PersonType } from './schemaType';
-import { People } from './people'
-import Q from 'Q';
+import { People } from './people';
 
 let schema = new GraphQLSchema({
 	query: new GraphQLObjectType({
