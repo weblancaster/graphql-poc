@@ -18,11 +18,11 @@ export const PersonType = new GraphQLObjectType({
 			description: 'Person age'
 		},
 		address: {
-			address_1: {
+			street: {
 				type: GraphQLString,
 				description: 'Describe person address 1'
 			},
-			address_2: {
+			city: {
 				type: GraphQLString,
 				description: 'Describe person address 2'
 			}

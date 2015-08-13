@@ -3,16 +3,16 @@ const People = [
 		"name": "John Doe",
 		"age": 25,
 		"address": {
-			"address_1": "Eden ave",
-			"address_2": "unit 53",
+			"street": "Eden ave",
+			"city": "Chicago",
 		}
 	},
 	{
 		"name": "Jane Doe",
 		"age": 23,
 		"address": {
-			"address_1": "Else ave",
-			"address_2": "apt 2209",
+			"street": "somewhere far",
+			"city": "California",
 		}
 	}
 ]
