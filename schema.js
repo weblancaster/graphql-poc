@@ -8,7 +8,7 @@ import {
 } from 'graphql';
 
 import { PersonType } from './schemaType';
-import People from './people';
+import { getClients } from './controller';
 
 let schema = new GraphQLSchema({
 	query: new GraphQLObjectType({
@@ -16,7 +16,7 @@ let schema = new GraphQLSchema({
 		fields: {
 			people: {
 				type: new GraphQLList(PersonType),
-				resolve: () => People
+				resolve: () => getClients()
 			},
 			count: {
 				type: GraphQLInt,

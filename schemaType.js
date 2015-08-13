@@ -9,22 +9,27 @@ export const PersonType = new GraphQLObjectType({
 	name: 'Person',
 	description: 'Describe a Person',
 	fields: () => ({
-		name: {
+		fname: {
 			type: GraphQLString,
-			description: 'Person name'
+			description: 'Person first name'
+		},
+		lname: {
+			type: GraphQLString,
+			description: 'Person last name'
 		},
 		age: {
 			type: GraphQLInt,
 			description: 'Person age'
 		},
 		address: {
-			street: {
-				type: GraphQLString,
-				description: 'Describe person address 1'
+			streetAddres: {
+				type: GraphQLString
 			},
 			city: {
-				type: GraphQLString,
-				description: 'Describe person address 2'
+				type: GraphQLString
+			},
+			zip: {
+				type: GraphQLString
 			}
 		}
 	})
