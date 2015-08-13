@@ -1,0 +1,17 @@
+{
+  "name": "graphql-POC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Michael Lancaster",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "graphql": "^0.3.0",
+    "q": "^1.4.1"
+  }
+}
