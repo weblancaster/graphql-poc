@@ -1,4 +1,4 @@
-let People = [
+const People = [
 	{
 		"name": "John Doe",
 		"age": 25,
@@ -16,3 +16,5 @@ let People = [
 		}
 	}
 ]
+
+export default People;
