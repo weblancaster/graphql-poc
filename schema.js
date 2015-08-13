@@ -10,7 +10,7 @@ import {
 import { PersonType } from './schemaType';
 import { getClients } from './controller';
 
-let schema = new GraphQLSchema({
+const schema = new GraphQLSchema({
 	query: new GraphQLObjectType({
 		name: 'RootQueryType',
 		fields: {

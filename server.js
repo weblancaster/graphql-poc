@@ -3,7 +3,7 @@ import bodyParser from 'body-parser';
 import { graphql } from 'graphql';
 import schema from './schema';
 
-let app = express();
+const app = express();
 let PORT = 3000;
 
 app.use(bodyParser.text({ type: 'application/graphql' }));
