@@ -5,7 +5,7 @@ import {
 	GraphQLString,
 } from 'graphql';
 
-export const PersonType = new GraphQLList({
+export const PersonType = new GraphQLObjectType({
 	name: 'Person',
 	description: 'Describe a Person',
 	fields: () => ({
