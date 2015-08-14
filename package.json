@@ -9,6 +9,7 @@
   "author": "Michael Lancaster",
   "license": "MIT",
   "dependencies": {
+    "babel": "^5.8.21",
     "body-parser": "^1.13.3",
     "express": "^4.13.3",
     "graphql": "^0.3.0",
